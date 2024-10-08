@@ -7,6 +7,9 @@ body {
   
 }
 
+/* PC設定 */
+
+/* ヘッダー */
 .header {
   padding: 10px 30px;
   display: flex;
@@ -30,8 +33,10 @@ body {
   font-size: 1.4rem;
 }
 
+/* メインビジュアル */
 .mainvisual {
-  
+  display: flex;
+  justify-content: center;
 }
 
 .left-box {
@@ -40,4 +45,29 @@ body {
 
 .right-box {
   
+}
+
+/* ニュース */
+.news {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+.business-hours {
+  margin-right: 700px;
+}
+
+.button-with-arrow no-outline {
+  justify-content: right; 
+}
+
+/* コンセプト */
+.concept {
+  display: flex;
+  justify-content: center;
+}
+
+.concept-left {
+
 }
