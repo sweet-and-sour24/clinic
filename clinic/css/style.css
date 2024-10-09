@@ -90,7 +90,7 @@ body {
   width: 146px;
   align-self: flex-end;
   position: absolute;
-
+  border-radius: 20px;
 }
 
 .treatment2 {
@@ -98,6 +98,7 @@ body {
   width: 291px;
   align-self: center;
   position: absolute;
+  border-radius: 20px;
 }
 
 .treatment3 {
@@ -105,6 +106,47 @@ body {
   width: 146px;
   align-self: flex-end;
   position: absolute;
+  border-radius: 20px;
 }
 
 /* コース・料金 */
+.course-price {
+  height: 1000px;
+  width: 100%;
+  background: #F0F5E1;
+  
+}
+
+.bg-img-middle {
+  
+}
+
+.bg-img-middle::before,.bg-img-middle::after{
+  
+}
+
+.bg-img-middle::before {
+  
+}
+
+.bg-img-middle::after {
+  
+}
+
+.course-title {
+  text-align: center;
+}
+
+.course-content {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+
+}
+
+.button-with-arrow {
+  display: flex;
+  justify-content: center;
+}
+
+
