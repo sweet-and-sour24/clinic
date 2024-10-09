@@ -66,8 +66,33 @@ body {
 .concept {
   display: flex;
   justify-content: center;
+  background-image: url("/clinic/images/Title.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.bg-img-middle {
+
 }
 
 .concept-left {
 
 }
+
+.concept-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.treatment1 {
+  
+}
+
+.treatment2 {
+  
+}
+
+.treatment3 {
+  
+}
+
