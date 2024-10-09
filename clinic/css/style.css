@@ -4,11 +4,10 @@ html {
 }
 
 body {
-  
+
 }
 
-/* PC設定 */
-
+/* PCレイアウト */
 /* ヘッダー */
 .header {
   padding: 10px 30px;
@@ -66,33 +65,46 @@ body {
 .concept {
   display: flex;
   justify-content: center;
-  background-image: url("/clinic/images/Title.png");
+  margin-top: 120px;
+  background-image: url("/clinic/images/Title.png"),url("/clinic/images/BGicon-big.png");
   background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.bg-img-middle {
-
+  background-size: 530px 130px,440px 336px;
+  background-position: top left,right;
 }
 
 .concept-left {
-
+  width: 320px;
 }
 
 .concept-right {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  position: relative;
+  width: 400px;
+  height: 507px;
+  margin-left: 80px;
+  
 }
 
 .treatment1 {
-  
+  height: 146px;
+  width: 146px;
+  align-self: flex-end;
+  position: absolute;
+
 }
 
 .treatment2 {
-  
+  height: 379px;
+  width: 291px;
+  align-self: center;
+  position: absolute;
 }
 
 .treatment3 {
-  
+  height: 189px;
+  width: 146px;
+  align-self: flex-end;
+  position: absolute;
 }
 
+/* コース・料金 */
