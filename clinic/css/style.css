@@ -46,6 +46,11 @@ body {
 
 .right-box {
   width: 79%;
+  background-image: url("/clinic/images/BG-circle.png");
+  background-repeat: no-repeat;
+  background-size: 719px 616px;
+  background-position-x: 250px;
+
 }
 
 .right-box img {
@@ -78,7 +83,6 @@ body {
 .concept-left {
   width: 320px;
   background-image: url("/clinic/images/Title.png");
-  background-clip: border-box;
   background-repeat: no-repeat;
   background-size: 530px 130px;
   background-position-x: center;
@@ -102,7 +106,7 @@ body {
   width: 146px;
   align-self: flex-end;
   position: absolute;
-  border-radius: 20px;
+  border-radius: 15px;
   top: -61px;
   right: 65px;
   z-index: 1;
@@ -113,7 +117,7 @@ body {
   width: 291px;
   align-self: center;
   position: relative;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .treatment3 {
@@ -121,7 +125,7 @@ body {
   width: 146px;
   align-self: flex-end;
   position: absolute;
-  border-radius: 20px;
+  border-radius: 15px;
   right: 0;
   bottom: 61px;
 }
@@ -130,28 +134,17 @@ body {
 .course-price {
   height: 1000px;
   width: 100%;
-  /* background: #F0F5E1; */
-  
+  background: #F0F5E1;
+
 }
 
 .bg-img-middle {
   width: 100%;
 }
 
-.bg-img-middle::before,.bg-img-middle::after{
-  
-}
-
-.bg-img-middle::before {
-  
-}
-
-.bg-img-middle::after {
-  
-}
-
 .course-title {
   text-align: center;
+
 }
 
 .course-content {
@@ -159,6 +152,31 @@ body {
   justify-content: center;
   gap: 80px;
 
+}
+
+.content-left {
+  background-image: url("/clinic/images/Title2.png");
+  background-repeat: no-repeat;
+  background-size: 530px 130px;
+  background-position-x: left;
+
+}
+
+.content-left img {
+  border-radius: 10%;
+}
+
+.content-right {
+  background-image: url("/clinic/images/BGicon-big2.png");
+  background-repeat: no-repeat;
+  background-size: 440px 336px;
+  background-position-x: 50px;
+  background-position-y: bottom;
+
+}
+
+.content-right img {
+  border-radius: 10%;
 }
 
 .button-with-arrow {
