@@ -36,14 +36,20 @@ body {
 .mainvisual {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .left-box {
   writing-mode: vertical-rl;
+  width: 21%;
 }
 
 .right-box {
-  
+  width: 79%;
+}
+
+.right-box img {
+  width: 100%;
 }
 
 /* ニュース */
@@ -57,7 +63,7 @@ body {
   margin-right: 700px;
 }
 
-.button-with-arrow no-outline {
+.button-with-arrow.no-outline {
   justify-content: right; 
 }
 
@@ -78,7 +84,6 @@ body {
 
 .concept-right {
   display: block;
-  position: relative;
   width: 400px;
   height: 507px;
   margin-left: 80px;
@@ -91,13 +96,14 @@ body {
   align-self: flex-end;
   position: absolute;
   border-radius: 20px;
+  bottom: ;
 }
 
 .treatment2 {
   height: 379px;
   width: 291px;
   align-self: center;
-  position: absolute;
+  position: relative;
   border-radius: 20px;
 }
 
