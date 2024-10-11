@@ -47,11 +47,28 @@ body {
 
 .right-box {
   width: 79%;
+  position: relative;
+  z-index: 5;
+}
+
+.right-box img {
+  position: relative;
+  z-index: 5;
+}
+
+.right-box::before {
+  content: '';
+  position: absolute;
+  width: 82%;
   background-image: url("/clinic/images/BG-circle.png");
   background-repeat: no-repeat;
   background-size: 719px 616px;
-  background-position-x: 250px;
-
+  background-position-x: left;
+  z-index: 1;
+  width: 719px;
+  height: 616px;
+  left: ;
+  bottom: ;
 }
 
 .right-box img {
@@ -83,10 +100,21 @@ body {
 
 .concept-left {
   width: 320px;
+  position: relative;
+}
+
+.concept-left::after {
+  content: '';
   background-image: url("/clinic/images/Title.png");
+  background-clip: border-box;
   background-repeat: no-repeat;
   background-size: 530px 130px;
   background-position-x: center;
+  position: absolute;
+  width: 530px;
+  height: 130px;
+  top: 0;
+  left: -150px;
 }
 
 .concept-right {
@@ -95,11 +123,21 @@ body {
   height: 507px;
   margin-left: 80px;
   position: relative;
+}
+
+.concept-right::after {
+  content: '';
   background-image: url("/clinic/images/BGicon-big.png");
+  background-clip: border-box;
   background-repeat: no-repeat;
   background-size: 440px 336px;
-  background-position-x: 50px;
-  background-position-y: bottom;
+  background-position-x: right;
+  position: absolute;
+  z-index: 2;
+  width: 440px;
+  height: 336px;
+  bottom: -120px;
+  right: -300px;
 }
 
 .treatment1 {
@@ -110,7 +148,7 @@ body {
   border-radius: 15px;
   top: -61px;
   right: 65px;
-  z-index: 1;
+  z-index: 5;
 }
 
 .treatment2 {
@@ -119,6 +157,7 @@ body {
   align-self: center;
   position: relative;
   border-radius: 15px;
+  z-index: 3;
 }
 
 .treatment3 {
@@ -129,23 +168,32 @@ body {
   border-radius: 15px;
   right: 0;
   bottom: 61px;
+  z-index: 4;
 }
+
 
 /* コース・料金 */
 .course-price {
-  height: 1000px;
+  margin-top: 300px;
+  height: 870px;
   width: 100%;
-  background: #F0F5E1;
-
+  position: relative;
+  background-color: #F0F5E1;
+  position: relative;
+  z-index: 5;
 }
 
 .bg-img-middle {
   width: 100%;
+  top: -130px;
+  position: absolute;
+  z-index: 1;
 }
 
 .course-title {
   text-align: center;
-
+  position: relative;
+  z-index: 5;
 }
 
 .course-content {
